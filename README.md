@@ -1,6 +1,6 @@
 # Apply Filters to SQL Queries
 
-**Josue Samuel Herrera Vargas**
+**Josue Herrera**
 
 ## Project Description
 
@@ -60,7 +60,7 @@ FROM log_in_attempts
 WHERE login_time > '18:00:00'
   AND success = 0;
 ```
-<a href="//imgur.com/a/o1mM4cG">See image for step 1 here</a>
+<a href="//imgur.com/a/YD1822O">See image for step 1</a>
 
 ### Explanation
 
@@ -90,7 +90,7 @@ WHERE login_date = '2022-05-08'
    OR login_date = '2022-05-09';
 ```
 
-<a href="//imgur.com/a/YD1822O">See image for step 2 here</a>
+<a href="//imgur.com/a/6rlbfQJ">See image for step 2</a>
 
 ### Explanation
 
@@ -115,7 +115,7 @@ SELECT *
 FROM log_in_attempts
 WHERE NOT country LIKE 'MEX%';
 ```
-<a href="//imgur.com/a/6rlbfQJ">See image for step 3 here </a>
+<a href="//imgur.com/a/rq5nC1y">See image for step 3</a>
 
 ### Explanation
 
@@ -151,7 +151,7 @@ FROM employees
 WHERE department = 'Marketing'
   AND office LIKE 'East%';
 ```
-<a href="//imgur.com/a/rq5nC1y">See image for step 4 here</a>
+<a href="//imgur.com/a/uhIqdWO">See image for step 4</a>
 
 ### Explanation
 
@@ -175,7 +175,7 @@ FROM employees
 WHERE department = 'Finance'
    OR department = 'Sales';
 ```
-<a href="//imgur.com/a/uhIqdWO">See image 5 here</a>
+<a href="//imgur.com/a/pplHxiF">See image for step 5</a>
 
 ### Explanation
 
@@ -198,7 +198,7 @@ SELECT *
 FROM employees
 WHERE NOT department = 'Information Technology';
 ```
-<a href="//imgur.com/a/pplHxiF">See images for step 6 here</a>
+<a href="//imgur.com/a/SjJEtcA">See images for step 6</a>
 
 ### Explanation
 
